@@ -1,0 +1,72 @@
+
+
+li:hover{
+    background-color: aqua;
+}
+li{
+    
+    background-color: white;
+    list-style:none;
+}
+a:hover{
+  color: blue;
+}
+a{
+  text-decoration: none;  
+}
+
+button{
+    background-color:white;
+    
+}
+button:hover{
+    background-color: aqua;
+
+}
+.header{
+    background-color: aqua;
+}
+.overview{
+    display: flex;
+    flex-direction: row;
+}
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.plants-pictures{
+    display: flex;
+}
+
+.plants-header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.testimonials-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.testimonials h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.bicycles-main{
+    
+    background: #3882f6;
+}
+.bicycles-second{
+    display: flex;
+}
+.bicycles-button{
+    align-self: end;
+    padding-left: 10px;
+    
+}
+.bicycles-button button{
+    background-color: #3882f6;
+}
